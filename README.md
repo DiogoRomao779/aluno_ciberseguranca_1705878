@@ -5,4 +5,4 @@ Curso: CiberSeguranca
 
 Disciplina: Sistemas Distribuidos
 
-![alt text](./imagens/ipg.png)
+![alt text](./imagens/IPG.png)
