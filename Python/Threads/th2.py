@@ -11,14 +11,14 @@ def multiplos(nome,x):
     print(z)
 
 def soma(nome,x):
-    for i in range(0,11):
+    for i in range(0,20):
         z=nome+str(i+x)+"\n"
         print(z)
     z="\nA thread "+ nome + "terminou\n";
     print(z)
 
 executor = ThreadPoolExecutor(max_workers=4)
-executor.submit(multiplos("th1-mullt ",2))
+executor.submit(multiplos("th1-mult ",2))
 executor.submit(multiplos("th2-mult ",3))
 executor.submit(soma("th3-sum ",5))
 executor.submit(soma("th4-sum ",7))
