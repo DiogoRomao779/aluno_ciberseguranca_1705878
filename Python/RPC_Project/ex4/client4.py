@@ -1,14 +1,11 @@
 import xmlrpc.client
 
 s = xmlrpc.client.ServerProxy('http://localhost:8000')
-x= int(input("entre o 1-valor: "))
-y=int(input("entre o 2-valor: "))
-print(type(x))
+a = (input("entre o 1-valor: "))
+b = (input("entre o 1-valor: "))
 
-print(s.add(x,y))
-print(s.sub(x,y))
-print(s.mult(x,y))
-print(s.div(x,y))
+
+print(s.comp(a,b))
 
 # Print list of available methods
 print(s.system.listMethods())

@@ -16,19 +16,19 @@ with SimpleXMLRPCServer(('localhost', 8000),
 
     # Register a function under a different name
 
-    def complex(x,y):
+    def comp(a,b):
+        z = complex(a)
+        w = complex(b)
 
 
-        return float (x/y)
-    server.register_function(complex, 'comp')
+        return str(z+w)
+    server.register_function(comp, 'comp')
 
     # Register an instance; all the methods of the instance are
     # published as XML-RPC methods (in this case, just 'mul').
-    class MyFuncs:
-        def mul(self, x, y):
-            return x * y
 
-    server.register_instance(MyFuncs())
+
+
 
     # Run the server's main loop
     server.serve_forever()
