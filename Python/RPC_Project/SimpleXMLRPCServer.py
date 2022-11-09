@@ -29,7 +29,13 @@ with SimpleXMLRPCServer(('localhost', 8000),
     server.register_function(mult_function, 'mult')
 
     def div_function(x,y):
-        return float (x/y)
+        if y != 0:
+
+            return float (x/y)
+        else:
+            return "dividing by 0 will make you enter in a timelapse"
+
+
     server.register_function(div_function, 'div')
 
     # Register an instance; all the methods of the instance are
