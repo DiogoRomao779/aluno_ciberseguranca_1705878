@@ -11,11 +11,11 @@ with SimpleXMLRPCServer(('localhost', 8000),
     server.register_introspection_functions()
 
     # Register a function under a different name
-    def zeta(x):
+    def zeta(x,zet):
         i = 1
         total = 0
         while i <= x:
-            total = total + (1/i) ** 3)
+            total = total + (1 / (i ** zet))
             i = i + 1
         return total
     server.register_function(zeta, 'zeta')
