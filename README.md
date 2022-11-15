@@ -95,7 +95,7 @@ Disciplina: Sistemas Distribuidos
 
 ## 4. Client	
 // colocar o código implementado no cliente e explicá-lo
-
+<p>
 ## 5. Funcionamento do trabalho	
 // colocar imagens do trabalho a funcionar e explicar
 
