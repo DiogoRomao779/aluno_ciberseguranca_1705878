@@ -1,8 +1,8 @@
 import xmlrpc.client
 
 s = xmlrpc.client.ServerProxy('http://localhost:8000')
-print("Este programa com implementação RPC irá apresentar os 100 primeiros multiplos de um inteiro.")
-x = int(input("intruduza o inteiro que pretende: "))
+print("This program with implementation of RPC will present the first 100 multiples of an int.")
+x = int(input("enter the int that you want: "))
 
 print(s.hundred(x))
 
