@@ -14,7 +14,7 @@ with SimpleXMLRPCServer(('localhost', 8000),
 
 
     def hundred_mults(x):
-        if x != 0:
+
             i = 1
             texto = ''
             while i < 101:
@@ -23,8 +23,6 @@ with SimpleXMLRPCServer(('localhost', 8000),
                 texto += str(r) + "\n"
                 i += 1
             return texto
-        else:
-            return "Unless you want one hundred 0's showing on your screen I suggest you pick another number"
 
 
     server.register_function(hundred_mults, 'hundred')
