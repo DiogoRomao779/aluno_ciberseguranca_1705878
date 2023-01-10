@@ -39,8 +39,7 @@ Neste trabalho irei implementar uma função num servidor para calcular os prime
 
 ## Função implementada
 
-A função que implementei recebe um inteiro, ao receber esse inteiro se o número introduzido for 0, entra num else onde apresento um texto a explicar que 100 múltiplos de zero serão 100 zeros, caso contrário a função entra num ciclo while onde iniciou uma variável r a 0, dando o valor a essa mesma variável que será o cálculo do inteiro introduzido pelo utilizador e a variável i que será iniciada a 1 que será um counter de quantos ciclos já foram executados pelo while até ao limite de valor de i ser 100. A variável r a cada ciclo é reiniciada, não sem antes o valor da mesma ser guardado numa string para poder devolver ao utilizador. Após terminar o while é retornada a string com todos os valores de r ao longo do ciclo while.
-
+A função que implementei recebe um inteiro do Client. Após receber esse int a função entra num ciclo while onde se iniciou uma variável r a 0, dando o valor a essa mesma variável que será o cálculo do inteiro introduzido pelo utilizador e a variável i que será iniciada a 1 que será um counter de quantos ciclos já foram executados pelo while até ao limite de valor de i ser 100. A variável r a cada ciclo é reiniciada, não sem antes o valor da mesma ser guardado numa string para poder devolver ao utilizador. Após terminar o while é retornada a string com todos os valores de r ao longo do ciclo while.
 
 ## Servidor
 
