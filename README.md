@@ -8,19 +8,19 @@ Disciplina: Sistemas Distribuidos
 
 ![alt text](https://user-images.githubusercontent.com/113999850/191517763-9a1f1716-dc73-4ac6-9032-1e638c9f93c6.png)
 
-# Relatório do Trabalho prático<br />
+# Relatório do Trabalho prático
 # Sistemas Distribuídos<br />
 <br />
 <br />
-## Os 100 primeiros múltiplos
+Os 100 primeiros múltiplos
 <br /> 
 <br />
-## Aluno: 
-## Diogo Romão, 
-## 1705878,
+Aluno: 
+Diogo Romão, 
+1705878,
 <br />
-## https://github.com/DiogoRomao779, 
-## Dr3amyghost@hotmail.com
+https://github.com/DiogoRomao779, 
+Dr3amyghost@hotmail.com
 </p>
 <br />
 
