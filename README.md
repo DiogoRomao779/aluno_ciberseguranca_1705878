@@ -112,6 +112,18 @@ print(s.system.listMethods())
 
 ## Funcionamento do trabalho
 
+Resultado na consola em caso de introdução de um valor que não um inteiro.
+```
+C:\Users\Strix\Desktop\github_projecto\aluno_ciberseguranca_1705878\T_Practico\venv\Scripts\python.exe C:\Users\Strix\Desktop\github_projecto\aluno_ciberseguranca_1705878\T_Practico\client.py 
+This program with implementation of RPC will present the first 100 multiples of an int.
+Enter the int that you want, that is not 0: a
+Wrong value, please try again!
+Enter the int that you want, that is not 0: A
+Wrong value, please try again!
+Enter the int that you want, that is not 0: !
+Wrong value, please try again!
+```
+Resultado no caso da correcta introdução de um inteiro.
 ```
 C:\Users\Strix\Desktop\github_projecto\aluno_ciberseguranca_1705878\T_Practico\venv\Scripts\python.exe C:\Users\Strix\Desktop\github_projecto\aluno_ciberseguranca_1705878\T_Practico\client.py 
 This program with implementation of RPC will present the first 100 multiples of an int.
