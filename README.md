@@ -4,9 +4,7 @@
 # Relatório do Trabalho prático<br />
 # Sistemas Distribuídos<br />
 <br />
-<br />
-# Os 100 primeiros múltiplos
-<br /> 
+# Os 100 primeiros múltiplos<br />
 <br />
 Aluno: <br />
 Diogo Romão<br /> 
