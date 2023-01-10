@@ -3,7 +3,6 @@
 ![alt text](https://user-images.githubusercontent.com/113999850/191517763-9a1f1716-dc73-4ac6-9032-1e638c9f93c6.png)<br />
 # Relatório do Trabalho prático<br />
 # Sistemas Distribuídos<br />
-<br />
 # Os 100 primeiros múltiplos<br />
 <br />
 Aluno: <br />
