@@ -15,11 +15,12 @@ Disciplina: Sistemas Distribuidos
 Os 100 primeiros múltiplos
 <br /> 
 <br />
-Aluno: 
-Diogo Romão, 
-1705878,
+Aluno: <br />
+Diogo Romão<br /> 
+1705878<br />
 <br />
-https://github.com/DiogoRomao779, 
+https://github.com/DiogoRomao779
+<br /> 
 Dr3amyghost@hotmail.com
 </p>
 <br />
